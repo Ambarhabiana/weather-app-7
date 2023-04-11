@@ -88,6 +88,7 @@ h1 {
   margin-inline-end: 0px;
   font-weight: bold;
   color: #131212;
+  margin-bottom: 0;
 }
 .Weather li {
   color: rgba(39, 33, 66, 0.4);
@@ -145,5 +146,3 @@ h1 {
   position: relative;
   top: -34px;
 }
-.box-1 {
-  margin: 10px
