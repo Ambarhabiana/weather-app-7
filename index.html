@@ -28,9 +28,9 @@
                     <div class="WeatherInfo">
                         <div class="row">
                             <div class="col-6">
-                                <h1>San Francisco</h1>
+                                <h1 id="city"></h1>
                                 <ul>
-                                    <li><span>Tuesday 21:00</span>, scattered clouds</li>
+                                    <li id="description"><span>Tuesday 21:00</span></li>
                                     <li>Humidity: <strong>80%</strong>, Wind: <strong>7.72km/h</strong></li>
                                 </ul>
                             </div>
@@ -38,7 +38,8 @@
                                 <div class="temperature-container d-flex justify-content-end"><canvas width="52"
                                         height="52"></canvas>
                                     <img src="https://ssl.gstatic.com/onebox/weather/64/rain_light.png" />
-                                    <div><span class="temperature">16</span><span class="unit">°C |°F</span></div>
+                                    <div><span class="temperature" id="temperature"></span><span class="unit">°C
+                                            |°F</span></div>
                                 </div>
                             </div>
                         </div>
