@@ -36,10 +36,12 @@ function displayTemperature(response) {
   windElement.innerHTML = Math.round(response.data.wind.speed);
   let dateElement = document.querySelector("#date");
   dateElement.innerHTML = formatDate(response.data.dt * 1000);
+  let iconELement = document.querySelector("#icon");
+  iconELement.innerHTML = "http://openweathermap.org/img/wn/04d@2x.png";
 }
 
 let apiKey = "cb2582e5509724792e81e7b1fd00a6be";
-let city = "Paris";
+let city = "Barcelona";
 let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}&units=metric`;
 
 axios.get(apiUrl).then(displayTemperature);
