@@ -8,7 +8,7 @@ function displayTemperature(response) {
   let humidityElement = document.querySelector("#humidity");
   humidityElement.innerHTML = response.data.main.humidity;
   let windElement = document.querySelector("#wind");
-  windElement.innerHTML = response.data.wind.speed;
+  windElement.innerHTML = Math.round(response.data.wind.speed);
 }
 
 let apiKey = "cb2582e5509724792e81e7b1fd00a6be";
