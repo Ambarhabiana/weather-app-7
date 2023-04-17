@@ -182,3 +182,7 @@ h1 {
   text-decoration: none;
   margin-left: 0;
 }
+
+#forecast {
+  display: block;
+}
