@@ -159,28 +159,13 @@ h1 {
   position: relative;
   top: -34px;
   text-decoration: none;
+  margin-left: 10px;
 }
 
 .temperature-container .active {
   color: #131212;
   cursor: default;
   text-decoration: none;
-}
-
-.temperature-container .active:hover {
-  text-decoration: none;
-}
-
-.unit #celsius-link {
-  font-size: smaller;
-  text-decoration: none;
-  margin-left: 10px;
-}
-
-.unit #fahrenheit-link {
-  font-size: smaller;
-  text-decoration: none;
-  margin-left: 0;
 }
 
 .col-2 {
